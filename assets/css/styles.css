@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* Part of Body */
+body{
+  color:black;
+  background-color: #828183;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='1'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  font-size: 15px;
+}
+
+header{
+  background-color:black;
+  padding-bottom: 10px;
+}
+
+ a{
+   color: gold;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.container{
+  width: 90px;
+  margin: auto;
+}
+
+/* Nav Menu */
+.navPrincipal{
+  font-size: 20px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+}
+
+.imgQueen{
+  background-color: black;
+  width: 100px;
+  
+}
+.queenLogo{
+  width: 110px;
+ 
+
+}
+
+.navPrincipal ul{
+  display: flex;
+}
+
+.navPrincipal ul li {
+padding: 10px;
+}
+
+.navPrincipal ul.navMenu{
+  flex: 1;
+  margin-left: 20px;
+}
+
+.navPrincipal ul li a:hover{
+  border-bottom: 3px solid #ad4638;
+}
+
+/*Banner principal*/
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxH2{
+  margin: 20px;
+  padding: 15px;
+  background-color: black;
+  border-radius: 15px;
+  color: gold;
+  text-align: center;
+  
+}
+
+p{
+  font-size: 20px;
+  margin: 20px;
+  padding: 50px;
+  background-color: black;
+  color: gold;
+  border-radius: 10px;
+
+}
+
+.gridGroup{
+ 
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  
+}
+
+
+
+.BandQ{
+  width: 450px;
+  border-radius: 10px;
+  margin: 10px;
+  
+  
+}
+
+.albums{
+  background-color: black;
+  width: 90%;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+table{
+  width: 100%;
+}
+
+table th, td{
+  color: gold;
+  border: 1px solid gold;
+  
+}
+
+.videoYT{
+  background-color: black;
+  border-radius: 15px;
+  padding: 10px;
+  width: 100px;
+  font-size: large;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.videoYT:hover{
+  color:#ad4638;
+}
+
+footer{
+  margin-top: 10px;
+  width: 100%;
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
